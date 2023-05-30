@@ -1,6 +1,10 @@
-var add = "하이";
-console.log(add);
-function test(a, b) {
-    console.log(a + b);
+// let add: string = "안녕";
+// console.log(add);
+function getGift(gift) {
+  console.log(gift.color);
+  if (gift.name === "car") {
+    gift.start();
+  } else {
+    gift.call();
+  }
 }
-test(10, 20);
